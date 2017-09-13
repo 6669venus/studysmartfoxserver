@@ -1,0 +1,5 @@
+split --bytes=40M SFS2X_unix_2_13_0.tar.gz split
+
+cat split* > SFS2X_unix_2_13_0_cat.tar.gz
+
+tar xf SFS2X_unix_2_13_0_cat.tar.gz
